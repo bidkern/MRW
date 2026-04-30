@@ -1,7 +1,7 @@
 [project]
 name = "market-research-workflow"
 version = "0.1.0"
-description = "Public-safe market research workflow for validating, scoring, ranking, and exporting opportunity events."
+description = "MRW: public-safe market research workflow for validating, scoring, ranking, and exporting opportunity events."
 requires-python = ">=3.10"
 dependencies = []
 
