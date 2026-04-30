@@ -1,6 +1,6 @@
-# Market Research Workflow
+# MRW
 
-A public-safe Python and SQL workflow for turning raw market observations into ranked research opportunities. It validates CSV input, scores each event with transparent heuristics, exports ranked CSV output, and can load the result into SQLite for repeatable analysis.
+MRW, short for Market Research Workflow, is a public-safe Python and SQL workflow for turning raw market observations into ranked research opportunities. It validates CSV input, scores each event with transparent heuristics, exports ranked CSV output, and can load the result into SQLite for repeatable analysis.
 
 This is a portfolio project, not financial advice. The sample data is synthetic.
 
