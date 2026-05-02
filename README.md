@@ -4,6 +4,8 @@ MRW, short for Market Research Workflow, is a public-safe Python and SQL workflo
 
 This is a portfolio project, not financial advice. The sample data is synthetic.
 
+Recruiter shortcut: see [PORTFOLIO.md](PORTFOLIO.md) for a one-page overview of what this project proves.
+
 ## Why It Matters
 
 Market research gets noisy quickly. This project forces every idea through the same questions:
@@ -15,6 +17,18 @@ Market research gets noisy quickly. This project forces every idea through the s
 - what would change the decision?
 
 That makes research notes easier to compare, review, and improve over time.
+
+## Case Study
+
+**Business problem:** A small operations or research team has too many market observations coming in from customers, competitors, vendors, news, and internal notes. Without a shared scoring method, the loudest idea can get attention before the best-supported idea.
+
+**Input data:** `sample_data/input_events.csv` contains synthetic events with category, asset, catalyst strength, evidence quality, volatility, downside risk, timing window, source count, and reviewer notes.
+
+**Scoring method:** The workflow validates each row, normalizes the evidence, catalyst, risk, and timing fields, then applies a weighted scoring model. Every event receives a score, a decision label, and a plain-language reason so the output can be reviewed instead of treated like a black box.
+
+**Output:** The script exports a ranked CSV, a decision log CSV, and a SQLite database that can be queried with the included SQL file.
+
+**Decision:** High-scoring events move to immediate research, middle-scoring events become watchlist items, and weak or risky signals are held until better evidence appears. The point is not to predict the future. The point is to make messy research easier to compare and defend.
 
 ## Quick Start
 
@@ -40,9 +54,9 @@ The project uses only the Python standard library at runtime. `pytest` is only n
 
 ```text
 score decision          event_id asset
- 86.0 research further  MKT-001  Regional Grocery Basket
- 82.0 research further  MKT-009  Cybersecurity Midcap Index
- 78.0 research further  MKT-017  Discount Retail Basket
+ 88.4 research further  MKT-009  Workflow Software Midcap Index
+ 88.4 research further  MKT-001  Regional Grocery Basket
+ 88.4 research further  MKT-017  Discount Retail Basket
 ```
 
 ## Project Structure
