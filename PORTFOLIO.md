@@ -1,6 +1,6 @@
 # Portfolio Overview: MRW
 
-MRW is a Python and SQL workflow for turning messy market observations into ranked, reviewable decisions. It is built as a portfolio project for analyst, business analyst, operations analyst, sales-operations, customer-insights, and implementation-support roles.
+MRW is a Python and SQL workflow for turning messy market observations into ranked, reviewable decisions. It is built as a portfolio project for analyst, business analyst, operations analyst, revenue operations, sales operations, customer insights, and implementation-support roles.
 
 ## What this project proves
 
@@ -22,5 +22,5 @@ MRW is a Python and SQL workflow for turning messy market observations into rank
 
 This project is strongest evidence for roles where the work is to clean up messy inputs, create a repeatable decision process, and explain the result to non-technical stakeholders.
 
-It is not trying to present Jesse as a senior data scientist, senior engineer, or cybersecurity specialist. The value is practical analytics, operations thinking, clean documentation, and follow-through.
+The value is practical analytics, operations thinking, clean documentation, and follow-through.
 
